@@ -1,0 +1,11 @@
+**/secrets.yaml
+**/.esphome/
+**/.pioenvs/
+**/.piolibdeps/
+.env
+.env.*
+*.bin
+*.elf
+*.map
+*.log
+.DS_Store

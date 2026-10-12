@@ -1,0 +1,16 @@
+{
+  "type": "micro",
+  "wake_word": "Эй олень",
+  "author": "Tater Totterson",
+  "website": "https://github.com/TaterTotterson/microWakeWord-Trainer-AppleSilicon",
+  "model": "hey_olen_ru.tflite",
+  "trained_languages": ["ru"],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.97,
+    "sliding_window_size": 8,
+    "feature_step_size": 10,
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
